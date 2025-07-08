@@ -30,3 +30,16 @@ pytest tests/
 - Configure AWS credentials.
 - Deploy using AWS CDK.
 ![Alt text](<API Gateway.png>)
+
+Included Modules:
+app/main.py: FastAPI app with Basic Authentication and SQS integration.
+
+lambda/worker.py: Lambda function to consume messages and store to DynamoDB.
+
+iac/: AWS CDK (Python) stack to deploy API Gateway, Lambda, SQS, and DynamoDB.
+
+tests/test_api.py: Unit tests for authentication and SQS integration using pytest.
+
+requirements.txt: Required libraries.
+
+README.md: Project overview, deploy instructions, and usage.
