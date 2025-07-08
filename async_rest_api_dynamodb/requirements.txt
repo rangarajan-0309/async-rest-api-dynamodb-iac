@@ -1,0 +1,8 @@
+fastapi
+boto3
+uvicorn
+pytest
+moto
+aws-cdk-lib
+constructs
+python-dotenv
